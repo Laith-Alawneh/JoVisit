@@ -1,0 +1,33 @@
+name: jordan_tourism_app
+description: BTEC Level 3 Unit 7 - Jordan Tourism Mobile App (Simplified v0.7.0)
+publish_to: 'none'
+version: 0.7.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: ^1.0.6
+  flutter_rating_bar: ^4.0.1
+  audioplayers: ^5.2.1
+  provider: ^6.1.1
+  http: ^1.1.2
+  cached_network_image: ^3.3.1
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/audio/clapping.mp3
+    - assets/audio/success_chime.mp3
+    - refrances/
+    - pics/
